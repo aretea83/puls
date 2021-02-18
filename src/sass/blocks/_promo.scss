@@ -9,18 +9,19 @@
         margin-top: 90px;
     }
     &__header {
-        color: $white;
         font-size: 42px;
         font-weight: 700;
-        line-height: 42px;
+        text-align: right;
+        color: #ffffff;
         text-transform: uppercase;
+        line-height: 42px;
     }
     &__subheader {
-        margin-top: 17px;
-        color: $white;
+        margin-top: 5px;
         font-size: 24px;
         font-weight: 500;
-        line-height: 24px;
+        text-align: right;
+        color: #ffffff;
         text-transform: uppercase;
     }
     &__icons {
@@ -31,10 +32,10 @@
     }
     &__icon {
         width: 108px;
-        color: $white;
+        text-align: center;
         font-size: 14px;
         font-weight: 500;
-        text-align: center;
+        color: #ffffff;
         img {
             display: block;
             margin: 0 auto;
@@ -47,8 +48,11 @@
         font-size: 16px;
         font-weight: 500;
         a {
-            color: $white;
-            text-align: right;
+            margin-top: 18px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #ffffff;
+            text-transform: uppercase;
             text-decoration: underline;
         }
     }
