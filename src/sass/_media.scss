@@ -20,6 +20,11 @@
         margin-top: 55px;
         width: 280px;
     }
+    .title {
+        &_left {
+            font-size: 29px;
+        }
+    }
     .advantage {
         padding: 70px 15px 78px 15px;
         &__item {
@@ -27,6 +32,13 @@
         }
         &__descr {
             font-size: 13px;
+        }
+    }
+    .consultation {
+        min-height: 550px;
+        padding: 90px 30px;
+        &__descr {
+            margin-top: 50px;
         }
     }
 }
@@ -53,9 +65,15 @@
         &_main {
             width: 250px;
         }
+        &_submit {
+            width: 100%;
+        }
     }
     .title {
         font-size: 25px;
+        &_left {
+            font-size: 24px;
+        }
     }
     .advantage {
         min-height: 350px;
@@ -74,6 +92,9 @@
         &__descr {
             margin-top: 20px;
         }
+    }
+    .consultation {
+        padding: 80px 30px;
     }
 }
 
@@ -123,9 +144,15 @@
             width: 200px;
             font-size: 13px;
         }
+        &_submit {
+            width: 100%;
+        }
     }
     .title {
         font-size: 22px;
+        &_left {
+            font-size: 18px;
+        }
     }
     .advantage {
         padding: 55px 15px;
@@ -135,5 +162,13 @@
         &__descr {
             font-size: 15px;
         }
+    }
+    .consultation {
+        &__descr {
+            font-size: 16px;
+        }
+    }
+    .feed-form {
+        width: 265px;
     }
 }
