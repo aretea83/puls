@@ -96,6 +96,15 @@
     .consultation {
         padding: 80px 30px;
     }
+    .carousel {
+        &__inner {
+            img {
+                width: 95%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
 }
 
 @media (max-width: 575px) {
