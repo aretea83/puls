@@ -41,6 +41,11 @@
             margin-top: 50px;
         }
     }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -105,6 +110,15 @@
             }
         }
     }
+    .catalog {
+        padding: 0 30px;
+        &__tabs {
+            margin-top: 45px;
+        }
+        &__tab {
+            font-size: 16px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -158,7 +172,7 @@
         }
     }
     .title {
-        font-size: 22px;
+        font-size: 20px;
         &_left {
             font-size: 18px;
         }
@@ -179,5 +193,15 @@
     }
     .feed-form {
         width: 265px;
+    }
+    .catalog {
+        padding: 0 15px;
+        &__tab {
+            margin: 0 5px;
+            font-size: 10px;
+        }
+        &__content {
+            margin-top: 45px;
+        }
     }
 }
